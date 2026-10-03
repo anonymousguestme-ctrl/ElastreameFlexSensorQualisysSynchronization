@@ -1,0 +1,23 @@
+{
+  "channels": [
+    {
+      "name": "S1",
+      "receiver_id": "unverified",
+      "serial_port": "COM3"
+    },
+    {
+      "name": "S2",
+      "receiver_id": "unverified",
+      "serial_port": "COM4"
+    }
+  ],
+  "baudrate": 115200,
+  "serial_timeout_seconds": 0.1,
+  "sampling_interval_ms": 20,
+  "udp_bind": "0.0.0.0",
+  "udp_port": 8989,
+  "pretrigger_seconds": 1.0,
+  "output_directory": "L:\\ElastreameFlexSensor\\同步采集软件\\records",
+  "calibration_profile": "calibration_profile.json",
+  "flush_interval_seconds": 1.0
+}

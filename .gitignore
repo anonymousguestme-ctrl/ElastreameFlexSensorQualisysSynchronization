@@ -1,0 +1,25 @@
+# Local Python environments and caches
+.venv/
+.venv-local/
+__pycache__/
+*.py[cod]
+
+# Build outputs and generated portable bundles
+build/
+build_local/
+dist/
+portable_*/
+
+# Local recordings and calibration state
+records/
+records_live_check/
+calibration_profile.json
+config_live_check.json
+
+# Generated manuals and image renderings
+manual_render*/
+manual_assets/
+
+# Large historical archives and copied vendor bundles
+*.zip
+QTM电脑拷贝包_20260928/
